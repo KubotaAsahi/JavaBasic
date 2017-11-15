@@ -34,5 +34,33 @@ public class PTra03_04 {
 		 */
 
 
+		if(num%4==0) {
+			if(num%100==0) {
+				if(num%400==0) {
+					System.out.println(num+"年はうるう年です。");
+				} else {
+					System.out.println(num+"年はうるう年ではありません。");
+				}
+			} else {
+				System.out.println(num+"年はうるう年です。");
+			}
+		} else {
+			System.out.println(num+"年はうるう年ではありません。");
+		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
