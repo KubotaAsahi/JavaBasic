@@ -59,8 +59,13 @@ public class PTra04_05 {
 
 
 
+			}if(myHand==0&&cpuHand==1||myHand==2&&cpuHand==0||myHand==1&&cpuHand==2) {
+
+				winFlg = true;
 			}
 
+
 		}
+		System.out.println("終了します");
 	}
 }
