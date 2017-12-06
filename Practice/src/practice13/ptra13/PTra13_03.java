@@ -19,11 +19,9 @@ public class PTra13_03 {
 		// ★ common.Slimeクラスをインスンタンス化してください
 		Slime slime = new Slime(10,5,2);
 
-
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
 		
 		slime.setName("スライム");
-
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
 		
