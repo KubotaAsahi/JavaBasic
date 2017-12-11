@@ -1,13 +1,4 @@
-/*
- * Course.java
- *   作成	IT-College	2016
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
-package practice14.common;
-
-
-
+package practice14.ptra14;
 
 public interface Course {
 	String PREFIX = "【Eラーニング】";

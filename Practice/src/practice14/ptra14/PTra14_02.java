@@ -19,5 +19,16 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
+	public static void main(String[] args) {
+		
+		DBCourse DBCourse = new DBCourse();
+		
+		System.out.println(DBCourse.getCourseName() + "DB基礎");
+		
+		for(String java : DBCourse.getCourseUnit()) {
+			System.out.println(java);
+		}
+		
+	}
 
 }
