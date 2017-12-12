@@ -25,7 +25,9 @@ public class PTra16_03 {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
 		PTra16_03 pTra16_03 = new PTra16_03();
+		
+		PTra16_03 str = pTra16_03;
 
-		System.out.println(pTra16_03.toString());
+		System.out.println(str);
 	}
 }
