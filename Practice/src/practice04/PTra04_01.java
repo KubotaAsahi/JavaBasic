@@ -15,7 +15,8 @@ public class PTra04_01 {
 		while (num>100==false) {
 
 			// ★ 変数numを2乗した数を変数numに代入してください
-			num=num*2;
+//			num=num*2;
+			num *= num;
 
 			// ★ 変数numの値を出力してください
 			System.out.println(num);

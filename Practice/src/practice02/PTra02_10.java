@@ -23,16 +23,14 @@ public class PTra02_10 {
 		 */
 		
 		
-		coffee*=1.08;
-		snack*=1.08;
-		
-		System.out.println(moneyInHand-(coffee+snack));
-		
-		
-		
-		
-		
-		
-
+//		coffee*=1.08;
+//		snack*=1.08;
+//		
+//		System.out.println(moneyInHand-(coffee+snack));
+		int total = snack + (coffee * 2);
+		double tex = total * 0.08;
+		int texmoney = (int)tex;
+		moneyInHand = moneyInHand - (total + texmoney);
+		System.out.println("所持金:"+moneyInHand);
 	}
 }

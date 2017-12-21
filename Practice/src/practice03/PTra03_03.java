@@ -25,13 +25,9 @@ public class PTra03_03 {
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
 		
 		if (num%3==0){
-			
-			
-			
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");
 		}
-
 	}
 }

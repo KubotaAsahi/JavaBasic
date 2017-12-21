@@ -28,16 +28,19 @@ public class PTra04_04 {
 			// プレイヤーがEnterを押すのを待つ
 			scanner.nextLine();
 
+
 			// サイコロを振ります。0～6未満の数がランダムで変数diceに代入されます
 			int dice = new java.util.Random().nextInt(6);
 			// 0～5にしかならないのでサイコロっぽくするには、+1を行います
 			dice++;
+			System.out.println(dice);
 
 			// ★ サイコロを振って出た目を、変数progressに加算してください
 			progress+=dice;
 
 
 			// ★ 「残り##マス」と出力してください（##には、残りマスの数を入れてください）
+			System.out.println(dice + "マス進みます");
 			System.out.println("残り"+ (map-progress) +"マス");
 		}
 

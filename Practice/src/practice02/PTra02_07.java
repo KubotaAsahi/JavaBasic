@@ -16,12 +16,9 @@ public class PTra02_07 {
 		
 		target=10;
 		
-		
-		
 		System.out.println(num-target);
 		
 		
-
 		// ★ 変数numを、変数targetの数字で割った商と余りを出力してください
 		
 		System.out.println(num/target);

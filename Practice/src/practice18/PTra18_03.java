@@ -55,11 +55,11 @@ public class PTra18_03 {
 //        	}
 //        }
 
-        for(int i = playerList.size(); i-->0;) {//この行を直す
+        for(int i = playerList.size(); i-->0;) {
         	Player player;
         	player = playerList.get(i);
         	if(player.getTram().equals("レアル・マドリード") || player.getTram().equals("バルセロナ")) {
-        		
+
 
         		playerList.remove(i);
 
