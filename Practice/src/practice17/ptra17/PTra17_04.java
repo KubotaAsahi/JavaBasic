@@ -17,23 +17,30 @@ public class PTra17_04 {
 		 */
 		
 		//文字列を配列に一文字ずつセット
-		char data[] = str.toCharArray();
-		
-		//配列数を取得
-		int num = data.length;
-		
-		for(int i = 0; i <= num - 1; i++) {
-			
+		char[] charArray = str.toCharArray();
+		for (char ch : charArray) {
+			System.out.print(ch);
 			try {
-				
-				Thread.sleep(1000);
-				
-			}catch (InterruptedException e) {
-				
-				System.out.println("エラーが起きました");
-				
-			}
-			System.out.print(data[i]);
+				Thread.sleep(250);
+			} catch (InterruptedException e) {
+//		char data[] = str.toCharArray();
+//		
+		//配列数を取得
+//		int num = data.length;
+//		
+//		for(int i = 0; i <= num - 1; i++) {
+//			
+//			try {
+//				
+//				Thread.sleep(1000);
+//				
+//			}catch (InterruptedException e) {
+//				
+//				System.out.println("エラーが起きました");
+//				
+//			}
+//			System.out.print(data[i]);
+			}	
 		}
 	}
 }

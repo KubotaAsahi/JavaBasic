@@ -16,39 +16,18 @@ public class PTra07_04 {
 		for(int i=0;i < trump.length;i++) {
 
 			trump[i]=i + 1;
-
-
-
 		}
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
 		int limitNumber = 52;
-		int random = 0;
-
+		int index = 0;
 		
 			// ★ ランダムで数字を生成するプログラムです。
 			// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
-			random = new java.util.Random().nextInt(limitNumber);
+			index = new java.util.Random().nextInt(limitNumber);
 
 		// ★ 配列trumpのindex番目の中に入っている数字を出力してください
 
-		System.out.println(random);
-
-
+		System.out.println(index);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -44,6 +44,7 @@ public class PTra10_04 {
 				 users[i].userId = Integer.parseInt(str[0]);
 				 users[i].userNm = str[1];
 				 users[i].mail = str[2];
+				 users[i].password = str[3];
 		}
 		//----------- ループ end
 
